@@ -1,0 +1,122 @@
+[
+  {
+    "number": 1,
+    "tier": "A",
+    "question": "How many stars does facebook/react have?",
+    "final_answer": "The **facebook/react** repository has **247,201 stars** \u2b50 on GitHub.",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 2,
+    "tier": "A",
+    "question": "What language is microsoft/vscode primarily written in?",
+    "final_answer": "The **microsoft/vscode** repository is primarily written in **TypeScript**.",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 3,
+    "tier": "A",
+    "question": "What is the default branch of octocat/Hello-World?",
+    "final_answer": "The default branch of **octocat/Hello-World** is **`master`**.",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 4,
+    "tier": "A",
+    "question": "How many forks does facebook/react have?",
+    "final_answer": "The **facebook/react** repository has **51,226 forks**. \ud83c\udf74",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 5,
+    "tier": "A",
+    "question": "What is the latest release version tag of microsoft/vscode?",
+    "final_answer": "The latest release of **microsoft/vscode** is version **1.133.0**, published on **August 12, 2026**.",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 6,
+    "tier": "B",
+    "question": "Which of these three repos has the most forks: facebook/react, microsoft/vscode, octocat/Hello-World? How many forks does it have?",
+    "final_answer": "The repo with the most forks is **facebook/react** with **51,226 forks**! Here's the full comparison:\n\n| Repo | Forks |\n|---|---|\n| facebook/react | **51,226** \u2705 |\n| microsoft/vscode | 41,598 |\n| octocat/Hello-World | 6,468 |",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 7,
+    "tier": "B",
+    "question": "Who is the top contributor to facebook/react, and how many contributions do they have?",
+    "final_answer": "The top contributor to **facebook/react** is **[sebmarkbage](https://github.com/sebmarkbage)** (Sebastian Markb\u00e5ge), with **1,939 contributions**! \ud83c\udf89",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 8,
+    "tier": "B",
+    "question": "Between microsoft/vscode and octocat/Hello-World, which has more open issues, and by how much?",
+    "final_answer": "Here are the results:\n\n| Repository | Open Issues |\n|---|---|\n| **microsoft/vscode** | 17,391 |\n| **octocat/Hello-World** | 5,740 |\n\n**microsoft/vscode** has more open issues by a significant margin \u2014 **11,651 more issues** than octocat/Hello-World. This is expected, as VS Code is a large, actively developed open-source project with a massive user base.",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 9,
+    "tier": "B",
+    "question": "Rank facebook/react, microsoft/vscode, and octocat/Hello-World by star count, highest to lowest.",
+    "final_answer": "Here are the three repositories ranked by star count, highest to lowest:\n\n| Rank | Repository | \u2b50 Stars |\n|------|------------------------|-----------|\n| \ud83e\udd47 1 | **facebook/react** | 247,201 |\n| \ud83e\udd48 2 | **microsoft/vscode** | 188,634 |\n| \ud83e\udd49 3 | **octocat/Hello-World** | 3,765 |\n\n**facebook/react** leads by a significant margin with ~58,000 more stars than **microsoft/vscode**, while **octocat/Hello-World** is far behind as it's simply a demo/test repository.",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 10,
+    "tier": "B",
+    "question": "Which of these three repos has no listed primary language: facebook/react, microsoft/vscode, octocat/Hello-World?",
+    "final_answer": "The repo with no listed primary language is **octocat/Hello-World**. Here's a quick summary of all three:\n\n| Repo | Primary Language |\n|---|---|\n| facebook/react | JavaScript |\n| microsoft/vscode | TypeScript |\n| octocat/Hello-World | *(none)* |\n\n`octocat/Hello-World` is a simple demo/test repository and doesn't have any code associated with a detectable programming language, which is why no primary language is listed.",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 11,
+    "tier": "C",
+    "question": "How many stars does facebook/this-repo-does-not-exist-12345 have?",
+    "final_answer": "The repository **facebook/this-repo-does-not-exist-12345** does not exist on GitHub (the API returned a 404 Not Found error). Please double-check the repository name and owner, and feel free to try again with the correct details!",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 12,
+    "tier": "C",
+    "question": "What is the latest release of octocat/Hello-World?",
+    "final_answer": "The repository **octocat/Hello-World** has no releases published. It's a simple demo/test repository maintained by GitHub, so it doesn't have any versioned releases.",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 13,
+    "tier": "C",
+    "question": "How many open issues, excluding pull requests, does octocat/Hello-World have?",
+    "final_answer": "The **octocat/Hello-World** repository has **5,740 open issues**, excluding pull requests.",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 14,
+    "tier": "C",
+    "question": "Is octocat/Hello-World's open issue count unusually high for a repo with only 3,765 stars? Explain briefly.",
+    "final_answer": "**Yes, the open issue count is unusually high** for a repo of this size. Here's the breakdown:\n\n| Metric | Value |\n|---|---|\n| \u2b50 Stars | 3,765 |\n| \ud83c\udf74 Forks | 6,468 |\n| \ud83d\udc1b True Open Issues (excl. PRs) | **5,740** |\n| \ud83d\udcec Open Issues + PRs combined | 6,901 |\n\n**Why it's unusual:**\nA healthy, active open-source project typically has far fewer open issues than stars \u2014 often a ratio well below 1:1. Here, `octocat/Hello-World` has roughly **1.5\u00d7 more open issues than stars**, which is extremely disproportionate.\n\n**Why it happens:**\n`octocat/Hello-World` is GitHub's own official demo/tutorial repository. It's one of the first repos new GitHub users interact with, so it attracts an enormous volume of test issues, spam, and experimental interactions from people learning how GitHub works \u2014 not because it's a real, actively developed project. This explains the inflated issue count relative to its star count.",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  },
+  {
+    "number": 15,
+    "tier": "C",
+    "question": "How many contributions does the user 'torvalds' have to microsoft/vscode?",
+    "final_answer": "The user **torvalds** does not appear anywhere in the top 100 contributors to **microsoft/vscode**. This means Linus Torvalds has either zero contributions or an negligibly small number that places him outside the top 100 contributors to that repository. It's very likely he has **no contributions** to the VS Code project.",
+    "iterations_used": 2,
+    "hit_max_iterations": false
+  }
+]
