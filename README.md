@@ -20,6 +20,10 @@ Full reasoning, tradeoffs, and evaluation results are in `TECHNICAL_NOTE.md`. AI
 - An Anthropic API key (https://console.anthropic.com)
 - A GitHub personal access token (no special scopes needed — public repo reads only)
 
+## Demo - 
+
+https://drive.google.com/file/d/13_YtjipVfzscVZxFgkJEBkuhPPwii-MS/view?usp=sharing
+
 ## Setup
 
 1. Clone or download this repository.
