@@ -1,6 +1,18 @@
 # GitHub Q&A Agent Harness
 
-An agent harness that answers natural-language questions about GitHub repositories using tool calling. The agent decides which GitHub API endpoints to call, executes them, and reasons over the results to produce a final answer. Every step (tool calls, inputs, results, final answer) is logged to a JSON file for inspection.
+## Problem selected
+
+This project addresses **Problem Statement 1: Build an Agent Harness**, from the take-home assignment.
+
+## Approach
+
+I built a focused agent harness that answers natural-language questions about GitHub repositories, rather than a general-purpose framework. The agent uses tool calling (Anthropic's Claude with the Anthropic API) to decide which GitHub REST API endpoint to call, executes that call, and reasons over the result to produce a final answer.
+
+Four tools are available: repo info (stars, forks, language, etc.), top contributors, latest release, and a filtered issue search that excludes pull requests (added specifically because GitHub's default issue count field includes PRs, which is a common source of misleading answers). Every step the agent takes — which tool it called, with what input, and what came back — is logged to a JSON trajectory file, so its behavior is fully inspectable rather than a black box.
+
+Before writing any code, I defined a fixed set of 15 test questions across three tiers (simple lookups, multi-step/chained questions, and deliberate edge cases like nonexistent repos), with correct answers verified against a live GitHub API call. The harness was evaluated against this set, and one inconsistency found during evaluation was diagnosed, fixed, and reverified.
+
+Full reasoning, tradeoffs, and evaluation results are in `TECHNICAL_NOTE.md`. AI tool usage is documented in `AI_USAGE.md`.
 
 ## Requirements
 
